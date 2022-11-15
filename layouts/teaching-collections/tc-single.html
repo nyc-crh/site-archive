@@ -1,0 +1,23 @@
+{{define "main"}}
+    {{$fileName:= .File.BaseFileName}}
+    {{$galleryPage:= $.Site.GetPage (printf "gallery/%s" $fileName)}}
+    {{with $galleryPage}}
+    <section class="main">
+        <div class="container-lg">
+          <div class="row align-items-start">
+            <div class="col-lg-12">
+              <h1>{{ .Title }}</h1>
+              {{ partial "content" . }}
+              <div class="d-flex justify-content-between py-5">
+                {{ with .PrevInSection }}
+                <a class="previous" href="{{.Permalink}}"> Previous item </a>
+                {{ end }}
+                {{ with .NextInSection }}
+                <a class="next" href="{{.Permalink}}"> Next item </a>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+      </section>
+    {{end}}
+{{end}}

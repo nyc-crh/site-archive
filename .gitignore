@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.gitignore
+.hugo_build.lock
+node_modules/
+public/
+# ignore resources for local builds, comment out if uploading to netlify
+resources/
+themes/timeline
+config.yaml

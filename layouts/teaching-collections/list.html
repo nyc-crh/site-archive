@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="">
+    <div class="container-lg">
+        <div class="row align-items-center justify-content-center py-5 g-5">
+            <div class="col-lg-8 order-lg-first">
+                <h1>{{ .Page.Params.title }}</h1>
+                <p class="lead">{{ .Content }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-lg">
+        <div class="row">
+            {{ range .Params.cards }}
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    {{$alt:= .alt}}
+                    {{with .img}}
+                    {{ $image := resources.Get (printf "images/%s" .)}}
+                    {{ with $image }}
+                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ $alt }}" />
+                    {{ end }}
+                    {{end}}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ .title }}</h5>
+                        <p class="card-text">{{ .text }}</p>
+                        {{ with .btn }}
+                        {{ if and .url .text }}
+                        <a href="{{ .url}}" class="btn btn-primary">{{ .text }}</a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

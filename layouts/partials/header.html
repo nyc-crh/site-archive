@@ -1,0 +1,31 @@
+<div class="container-lg">
+  <div class="row">
+    <div class="col-lg d-flex justify-content-left py-3">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="/img/nyccrh-logo-header.jpg" alt="" class="img-fluid d-block mx-auto">
+      </a>
+    </div>
+    <div class="col">
+        <nav class="py-2 bg-white"></nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item">{{ with .Site.GetPage "about" }}
+            <a href="{{ .Permalink }}"  class="nav-link"> About </a>
+            {{ end }}</li>
+            <li class="nav-item">{{ with .Site.GetPage "gallery" }}
+              <a href="{{ .Permalink }}" class="nav-link"> Gallery </a>
+              {{ end }}
+            </li>
+            <li class="nav-item">{{ with .Site.GetPage "teaching-collections" }}
+              <a href="{{ .Permalink }}" class="nav-link"> Teaching Collections </a>
+              {{ end }}
+            </li>
+        </ul>
+        </nav>
+      </div>
+      <div class="col"><form action="/search" method="GET" class="mb-3 py-3">
+        <input type="search" name="q" class="form-control searchbar" id="search-query" placeholder="Search..." aria-label="Search">
+      </form></div>
+    </div>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+//Styling of grid for demostration purposes
+.container {
+  background-color: #88d8b0;
+  padding: 10px;
+  box-sizing: border-box;
+  &__row {
+    background-color: #ffeead;
+  }
+  @at-root {
+    [class*='container__col-'] {
+      // width: 150px;
+      // height: 30px;
+      background-color: #ff6f69;
+      outline: 1px solid #ffcc5c;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}

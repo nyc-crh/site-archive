@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head" . }}
+</head>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="/img/nyccrh-logo.jpg" alt="New York City Civil Rights History - A Teaching Guide" class="img-fluid">
+        </div>
+        <div class="col-lg-12 order-lg-first">
+            <h1>{{ .Params.heading }}</h1>
+            <p>{{ .Content | markdownify }}</p>
+            <div>
+                {{ with .Params.btn1 }}
+                {{ if and .text .url }}
+                <a type="button" href="{{ .url }}" class="btn btn-lg btn-outline-danger interact px-4 me-2" role="button" >{{ .text }}</a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
