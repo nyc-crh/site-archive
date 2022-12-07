@@ -5,7 +5,7 @@ weight: 1
 draft: false
 cardsTitle: Primary Source Sets
 cards:
-  - title: Black Women's Educational Activism in and Beyond the Courts
+  - title: Black and Latina Women's Educational Activism
     img: elizabeth-cisco.jpg
     alt: alt tag
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
@@ -18,5 +18,5 @@ cards:
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
     btn:
       text: View the primary source set
-      url: /teaching-collections/1964-school-boycott/
+      url: /teaching-collections/boycotting-ny-schools/
 ---

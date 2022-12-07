@@ -1,6 +1,6 @@
 ---
 date: 1965-01-01
-title: United Bronx Parents
+title: Evelina López Antonetty and United Bronx Parents
 layout: docset-gallery
 type: list
 draft: false

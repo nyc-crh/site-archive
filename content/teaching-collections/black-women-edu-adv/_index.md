@@ -1,6 +1,6 @@
 ---
 layout: docset-gallery
-title: Black Women's Education and Advocacy Through the Courts
+title: Black and Latina Women's Educational Activism
 weight: 1
 draft: false
 cardsTitle: Teaching Collections
@@ -42,8 +42,14 @@ cards:
   btn:
     text: View the document set
     url: /teaching-collections/black-women-edu-adv/gouverneur-parents-association
+- title: Audre Lorde
+  img: audre-lorde-portrait.jpg
+  text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
+  btn:
+    text: View the document set
+    url: /teaching-collections/black-women-edu-adv/audre-lorde
 - title: Contemporary Black and Latina Activists
-  img: title-of-the-image.jpg
+  img: dayniah-manderson.jpg
   text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
   btn:
     text: View the document set

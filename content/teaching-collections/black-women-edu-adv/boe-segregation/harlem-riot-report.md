@@ -1,6 +1,7 @@
 ---
-title: Harlem Youth Federation Flier
+title: Excerpts from Mayor LaGuardia’s Commission on the Harlem Riot, March 19, 1935.
 layout: "tc-single"
 hasContentInGallery: true
-date: 1964-03-15
+date: 1935-03-19
+displaydate:
 ---

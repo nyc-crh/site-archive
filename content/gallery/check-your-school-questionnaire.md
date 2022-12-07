@@ -1,8 +1,8 @@
 ---
 layout: gallery
 draft: false
-date: 1950-01-01
-displaydate: "1950"
+date: 1958-01-01
+displaydate: "1950s"
 title: Check Your School Questionnaire
 author:
 imageFeatured: check-your-school-questionnaire.jpg

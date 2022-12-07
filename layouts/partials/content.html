@@ -1,5 +1,4 @@
 <div>
-    <p> Background by {{ .Params.author | markdownify}}</p>
     <p> {{ .Content | markdownify }}</p></div>
     <div class="col-lg-12">
         <div class="d-flex justify-content-center">
@@ -22,7 +21,11 @@
                 style="max-width: 100%;" />{{end}}
             {{end}}
             {{end}}
+            
         </div>
+        <div><p> <strong>Caption:</strong> {{ .Params.caption | markdownify}}</p></div>
+       {{ if .Params.text }}
+        <div class="col-lg-12"><a href="/plain-text/{{.Params.text}}" target="_blank">Read plain text of document</a></div>{{ end }}
         <div class="col-lg">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -35,7 +38,6 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p> <strong>Caption:</strong> {{ .Params.caption | markdownify}}</p>
                             <p> <strong>Source:</strong> {{ .Params.archive_source | markdownify}}</p>
                             <p> <strong>Permalink:</strong> {{ .Params.source_link | markdownify}}</p>
                             <p> <strong>Copyright:</strong> {{ .Params.copyright | markdownify}}</p>
@@ -60,7 +62,7 @@
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Show Questions
+                            Study Questions
                         </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"

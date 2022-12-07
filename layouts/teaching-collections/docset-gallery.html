@@ -52,7 +52,10 @@
             <div class="timeline-img"></div>
             <div class="timeline-content">
                 <div class="timeline-title"><h2>{{ .Params.Title}}</h2></div>
-                <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>
+                {{ if .Params.Displaydate }}
+                <div class="date">{{ .Params.Displaydate }}</div>
+                {{ else }}
+                <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>{{ end }}
                 <div class="timeline-imagewrapper">
                     <div class="timeline-thumbnail">{{with .Params.imageFeatured}}
                         <a href="{{$permalink}}">
@@ -71,7 +74,10 @@
             <div class="timeline-img"></div>
             <div class="timeline-content">
                 <div class="timeline-title"><h2>{{ .Params.Title}}</h2></div>
-                <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>
+                {{ if .Params.Displaydate }}
+                <div class="date">{{ .Params.Displaydate }}</div>
+                {{ else }}
+                <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>{{ end }}
                 <div class="timeline-imagewrapper">
                     <div class="timeline-thumbnail">{{with .Params.imageFeatured}}
                         <a href="{{$permalink}}">
