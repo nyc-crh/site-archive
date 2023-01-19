@@ -4,7 +4,6 @@ draft: false
 date: 1957-01-01
 displaydate: 
 title: Portrait of Mae Mallory
-author: Errol Saunders
 imageFeatured: mae-mallory-and-daughter.jpg
 imageFeaturedAlt: Portrait of Mae Mallory
 embed:

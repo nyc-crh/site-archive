@@ -4,7 +4,6 @@ draft: false
 date: 1993-01-01
 displaydate: "1993"
 title: Marsellette Davis, NYC Black Deaf Advocates (NYCBDA)
-author: 
 imageFeatured: marsellette-davis.jpg
 imageFeaturedAlt: Screenshot of Marsellette Davis signing in ASL on a video conference on intersectional identity and empowerment of Black Deaf, Hard of Hearing, and DeafBlind Women.
 embed: 

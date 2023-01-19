@@ -4,7 +4,6 @@ draft: false
 date: 1971-03-25
 displaydate: 
 title: The Educational Needs of the Puerto Rican Child in New York City
-author: 
 imageFeatured: educational-needs-of-the-puerto-rican-child.jpg
 imageFeaturedAlt: Report cover
 embed: educational-needs-of-the-puerto-rican-child.pdf

@@ -2,7 +2,6 @@
 date: 1963-09-01
 displaydate: "1963"
 title: Urban League Research Study Excerpts
-author: Ansley Erickson
 imageFeatured: 1963-urban-league-study.jpg
 imageFeaturedAlt: Title page of study of problems of school integration 
 embed: 1963-urban-league-study.pdf

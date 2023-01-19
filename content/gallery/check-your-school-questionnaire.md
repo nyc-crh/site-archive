@@ -4,7 +4,6 @@ draft: false
 date: 1958-01-01
 displaydate: "1950s"
 title: Check Your School Questionnaire
-author:
 imageFeatured: check-your-school-questionnaire.jpg
 imageFeaturedAlt: Hand-drawn survey with questions about public school quality
 embed: check-your-school-questionnaire.pdf

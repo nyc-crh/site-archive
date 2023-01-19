@@ -5,12 +5,12 @@
       <div class="col-lg-12">
         <h1>{{ .Title }}</h1>
         {{ partial "content" . }}
-        <div class="d-flex justify-content-between py-5">
+        <div class="container-lg">
           {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> Previous item </a>
+          <a class="previous btn btn-primary text-left" href="{{.Permalink}}"> Previous Item </a>
           {{ end }}
           {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> Next item </a>
+          <a class="next  btn btn-primary text-right" href="{{.Permalink}}"> Next Item </a>
           {{ end }}
         </div>
       </div>

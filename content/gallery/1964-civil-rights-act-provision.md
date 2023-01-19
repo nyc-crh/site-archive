@@ -4,7 +4,6 @@ draft: false
 date: 1964-07-02
 displaydate:
 title: 1964 Civil Rights Act Provision
-author:
 imageFeatured: 1964-civil-rights-act-provision.jpg
 imageFeaturedAlt: Crossed out text shows the deletions of text from the Civil Rights Act
 embed: 
@@ -12,7 +11,7 @@ embedTitle:
 text:
 mapembed:
 audio:
-video: 
+video:
 videoTitle: 
 eventname: One sentence description for the timeline view, this shouldn't be longer than 125 characters.
 caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.

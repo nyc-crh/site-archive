@@ -4,7 +4,6 @@ draft: false
 date: 1900-01-09
 displaydate: "1900"
 title: People ex rel. Cisco v. School Board of Queens (1899-1900)
-author: 
 imageFeatured: cisco-vs-boe.jpg
 imageFeaturedAlt: Court documents
 embed: cisco-vs-boe.pdf

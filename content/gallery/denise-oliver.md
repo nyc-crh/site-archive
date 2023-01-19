@@ -4,7 +4,6 @@ draft: false
 date: 1970-11-21
 displaydate: 
 title: Denise Oliver
-author: 
 imageFeatured: denise-oliver.jpg
 imageFeaturedAlt: A black and white photograph of Denise Oliver amid a crowd of people.
 embed: 
@@ -12,7 +11,6 @@ embedTitle:
 text: 
 mapembed: 
 audio:
-video: 
 videoTitle: 
 eventname: The Black Panther Party and Young Lords host an event together.
 caption: This photo of Denise Oliver comes from a political event hosted by the Black Panther Party and the Young Lords Party. Oliver became the highest ranking member in the Young Lords and has continued her organizing work since being a member of the party. 

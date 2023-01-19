@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="home">
   <div class="container-lg">
-  <div class="row pack">
+  <div class="row pack justify-content-center mx-auto">
     {{ .Content }}
     {{ range (.Paginate $.RegularPagesRecursive.ByDate).Pages}}
     <div class="col-md-3 card m-3">

@@ -24,9 +24,9 @@ categories:
 tags:
   - untagged
 questions:
-  - Who do you see protesting in the image? 
-  - Why do you think students included point 5, which is about future teachers in the New York City schools
-  - Based on her experience as a student described in Zami, what do you think Audre Lorde thought of these student-activists’ demands? 
+ - Who do you see protesting in the image? 
+ - Why do you think students included point 5, which is about future teachers in the New York City schools
+ - Based on her experience as a student described in Zami, what do you think Audre Lorde thought of these student-activists' demands? 
 ---
 
 Although City College, where Audre Lorde taught, was in the predominantly Black and Latinx community of Harlem, there were very few Black or Latinx students who attended. In the 1968-1969 school year, City College students organized to demand change in admissions policies, curriculum, and support. They identified “Five Demands”:

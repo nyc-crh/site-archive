@@ -4,7 +4,6 @@ draft: false
 date: 1896-09-03
 displaydate:
 title: "\"Cisco on Trial in Queens\""
-author: 
 imageFeatured: cisco-on-trial.jpg
 imageFeaturedAlt: Newspaper clipping
 embed:

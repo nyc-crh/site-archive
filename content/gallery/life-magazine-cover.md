@@ -4,7 +4,6 @@ draft: false
 date: 1963-09-06
 displaydate:
 title: Life Magazine Cover
-author: 
 imageFeatured: life-magazine-cover.jpg
 imageFeaturedAlt: A. Philip Randolph and Bayard Rustin in front of the Lincoln Memorial
 embed: 

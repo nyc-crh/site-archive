@@ -1,17 +1,17 @@
 {{ define "main" }}
 <section class="main">
   <div class="container-lg">
-    <div class="row align-items-start">
-      <div class="col-lg-12">
-        <h1>{{ .Title }}</h1>
+    <div class="row justify-content-center py-5 g-5">
+        <div class="col-lg-8 order-lg-first">
+        <h1>{{ .Title }}</h1></div>
         {{ partial "content" . }}
-        <div class="d-flex justify-content-between py-5">
+        <div class="col-lg-10 d-flex justify-content-between py-5">
           {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> Previous item </a>
-          {{ end }}
-          {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> Next item </a>
-          {{ end }}
+                <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{.Permalink}}"> Previous Item </a></div>
+                {{ end }}
+                {{ with .NextInSection }}
+                <div class="float-right g-5"></div><a class="next  btn btn-primary text-right" href="{{.Permalink}}"> Next Item </a></div>
+                {{ end }}
         </div>
       </div>
     </div>

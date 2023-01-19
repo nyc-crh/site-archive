@@ -4,14 +4,13 @@ draft: false
 date: 1900-05-10
 displaydate: 
 title: Albany Evening Journal, May 10, 1900
-author: Errol Saunders
 imageFeatured: albany-evening-journal.jpg
 imageFeaturedAlt: Newspaper article
 embed: 
 text: 
 embedTitle: 
 mapembed: 
-video: 
+video:
 audio:
 videoTitle: 
 eventname: The Elsberg School Bill passes the New York State Legislature

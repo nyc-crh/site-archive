@@ -4,10 +4,6 @@ title: Legal Segregation Ends in New York City
 imageFeatured:
 imageFeaturedAlt:
 eventname: New York City schools (then including only Manhattan) end legal segregation of schools by race, although state law allows it.
-eventlocation: New York, NY
-categories:
-  - uncategorized
-tags:
-  - untagged
+hasContentInGallery: false
 draft: false
 ---

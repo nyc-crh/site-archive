@@ -4,7 +4,6 @@ draft: false
 date: 1937-04-17
 displaydate: 
 title: Hotel Pennsylvania Meeting Learns of Harlem School Ills
-author: Errol Saunders
 imageFeatured: hotel-penn-meeting.jpg
 imageFeaturedAlt: "Headline: Hotel Pennsylvania Meeting Learns of Harlem School Ills"
 embed: 

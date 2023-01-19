@@ -4,7 +4,6 @@ draft: false
 date: 2015-08-15
 displaydate: 
 title: Panel Discussion with the Women of the Young Lords Party at the Bronx Museum of Arts
-author: 
 imageFeatured: women-of-the-young-lords-party.jpg
 imageFeaturedAlt: Screenshot of video showing panel members
 embed: 
@@ -12,7 +11,9 @@ embedTitle:
 text: 
 mapembed: 
 audio:
-video: xLs4dsG4DQc?t=1204
+video: 
+  srcType: youtube
+  srcLink: xLs4dsG4DQc?t=1204
 videoTitle: Panel Discussion with the Women of the Young Lords Party at the Bronx Museum of Arts
 eventname: Members of the Young Lords Party reflect on their experiences
 caption: This video clip comes from a public history event hosted by the Bronx Museum of Arts in 2015 during which women in the Young Lords described the political climate in which the party emerged, why they joined, and how they navigated racism and sexism within the movement. In the selected excerpt, Denise Oliver describes the political context in which she and her fellow young activists forged new paths. 

@@ -4,7 +4,6 @@ draft: false
 date: 1982-01-01
 displaydate:
 title: "Excerpt from Zami: A New Spelling of My Name by Audre Lorde"
-author: 
 imageFeatured: zami-a-new-spelling-of-my-name.jpg
 imageFeaturedAlt: Graphic novel cover showing a black woman standing in front of skyscrapers
 embed: 
@@ -13,6 +12,8 @@ text:
 mapembed: 
 audio:
 video:
+  srcType:
+  srcLink:
 videoTitle: 
 eventname: Audre Lorde publishes a book about growing up in Harlem, living with a vision disability.
 caption:  In this portion of the text, Audre Lorde speaks about growing up in Harlem. She recalls her experiences at school as a child with a vision disability, and how mother interacted with her teachers. 

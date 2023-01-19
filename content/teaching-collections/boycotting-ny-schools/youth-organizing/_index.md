@@ -1,7 +1,8 @@
 ---
 date: 1964-02
 title: Youth Organizing and Direct Action
-layout: docset-gallery
+layout: bundle-gallery
+weight: 2
 type: list
 draft: false
 ---

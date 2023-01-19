@@ -4,7 +4,6 @@ draft: false
 date: 1900-04-20
 displaydate:
 title: "\"The Elsberg Bill Signed\""
-author: 
 imageFeatured: elsberg-bill-signed.jpg
 imageFeaturedAlt: Headline\:\ Elsberg Bill Signed
 embed: 
@@ -12,7 +11,7 @@ embedTitle:
 text:
 mapembed:
 audio:
-video:
+video:  
 videoTitle:
 eventname: Mrs. Cisco lost in court but her fight led to New York adopting a new law to end legal segregation in schools.
 caption: Although Mrs. Cisco did not win in the courtroom, the attention she brought to segregated schooling in New York led to the adoption of a new law that ended legal segregation in schools. This legislation was regularly referred to as “the Elsberg Bill” because state senator Nathaniel Elsberg introduced the bill. This Brooklyn Daily Eagle story narrates the events leading to the bill’s passage, the differing responses after its signing, and the opinion of Mrs. Cisco’s attorney George Wallace.

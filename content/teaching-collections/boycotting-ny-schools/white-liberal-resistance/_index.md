@@ -1,7 +1,8 @@
 ---
 date: 1964-02
 title: White Liberal Resistance
-layout: docset-gallery
+layout: bundle-gallery
+weight: 5
 type: list
 draft: false
 ---

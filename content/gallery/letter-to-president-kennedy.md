@@ -4,7 +4,6 @@ draft: false
 date: 1963-08-13
 displaydate: 
 title: Letter to President Kennedy
-author: Matt Kautz
 imageFeatured: letter-to-president-kennedy.jpg
 imageFeaturedAlt: A letter from A. Philip Randolf to President John F. Kennedy
 embed: letter-to-president-kennedy.pdf

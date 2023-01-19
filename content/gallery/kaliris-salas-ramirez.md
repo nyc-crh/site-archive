@@ -4,7 +4,6 @@ draft: false
 date: 2021-12-15
 displaydate: "1993"
 title: Kaliris Salas-Ramirez, Panel for Educational Equality
-author: 
 imageFeatured: kaliris-salas-ramirez.jpg
 imageFeaturedAlt: Photo of Kaliris Salas-Ramirez with her two Afro-Latinx children. 
 embed: 

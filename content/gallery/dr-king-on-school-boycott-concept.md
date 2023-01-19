@@ -4,7 +4,6 @@ draft: false
 date: 1964-04-11
 displaydate:
 title: Dr. King on the School Boycott Concept
-author: Matt Kautz
 imageFeatured: dr-king-on-school-boycott-concept.jpg
 imageFeaturedAlt: Op-ed by Dr. Martin Luther King, Jr. on the School Boycott
 embed: dr-king-on-school-boycott-concept.pdf
@@ -12,7 +11,7 @@ embedTitle: Dr. King on the School Boycott Concept
 text: dr-king-on-school-boycott-concept
 mapembed:
 audio:
-video: 
+video:
 videoTitle:
 eventname: Dr. King writes about the "school boycott concept" and it's application across the country.
 caption: In this op-ed, Dr. Martin Luther King, Jr. writes about the “school boycott concept” and its application across the country, particularly in the North.

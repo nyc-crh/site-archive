@@ -4,7 +4,6 @@ draft: false
 date: 1926-01-01
 displaydate: "1926"
 title: Brotherhood of Sleeping Car Porters Rally Posters
-author: Matt Kautz
 imageFeatured: brotherhood-of-sleeping-car-porters-rally-posters.jpg
 imageFeaturedAlt: Notice to porters and maids about organizing labor rallies
 embed: brotherhood-of-sleeping-car-porters-rally-posters.pdf

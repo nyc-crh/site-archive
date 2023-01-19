@@ -4,7 +4,6 @@ draft: false
 date: 1964-01-01
 displaydate: "1964"
 title: North to Freedom?
-author:
 imageFeatured: north-to-freedom.jpg
 imageFeaturedAlt: North to Freedom? Excerpt from planning for Freedom Schools
 embed: north-to-freedom.pdf

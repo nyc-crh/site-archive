@@ -4,7 +4,6 @@ draft: false
 date: 1964-03-15
 displaydate:
 title: Harlem Youth Federation Flier
-author: Jeanne Theoharis
 imageFeatured: harlem-youth-federation-flier.jpg
 imageFeaturedAlt: "Flier with all capital letters, \"WE WILL WIN. HARLEM FIVE. THE HARLEM YOUTH FEDERATION PRESENTS THIRD WORLD REVLATIONISTS\" Below in smaller letters, \"East Wind,\" \"For the Defense of the Harlem Five,\" \"Who Shall Survive America?\" \"Door $2.00; Time 10 PM; Sat Mar 15, 1969; 23 East 125th,\" \"East Wind,\" \"Harlem 5 Defense P.O. Box 486, NY NY 10027\""
 embed: 

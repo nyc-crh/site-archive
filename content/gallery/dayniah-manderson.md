@@ -4,7 +4,6 @@ draft: false
 date: 2021-12-15
 displaydate: "1993"
 title: Dayniah Manderson
-author: 
 imageFeatured: dayniah-manderson.jpg
 imageFeaturedAlt: Photo of Dayniah Manderson
 embed: 

@@ -4,7 +4,6 @@ draft: false
 date: 1964-01-06
 displaydate:
 title: NAACP 1964 Boycott Planning
-author:
 imageFeatured: naacp-1964-boycott-planning.jpg
 imageFeaturedAlt: Western Union telegram requesting a meeting with members
 embed: naacp-1964-boycott-planning.pdf

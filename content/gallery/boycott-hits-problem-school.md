@@ -4,7 +4,6 @@ draft: false
 date: 1965-01-20
 displaydate:
 title: 90% "Boycott Hits Problem School"
-author: 
 imageFeatured: boycott-hits-problem-school.jpg
 imageFeaturedAlt: Rev. Milton Galamison in a "600" school classroom with a group of black teenagers
 embed: boycott-hits-problem-school.pdf

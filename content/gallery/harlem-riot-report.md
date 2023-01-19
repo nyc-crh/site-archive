@@ -4,7 +4,6 @@ draft: false
 date: 1935-03-19
 displaydate:
 title: Excerpts from Mayor LaGuardia’s Commission on the Harlem Riot, March 19, 1935.
-author: Errol Saunders
 imageFeatured: harlem-riot-report.jpg
 imageFeaturedAlt: alt tag
 embed: harlem-riot-report.pdf

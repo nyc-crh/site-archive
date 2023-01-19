@@ -4,7 +4,6 @@ draft: false
 date: 1947-01-01
 displaydate:
 title: Your Child and Willowbrook
-author: Jessica Murray
 imageFeatured: your-child-and-willowbrook.jpg
 imageFeaturedAlt: Brochure cover
 embed: your-child-and-willowbrook.pdf
@@ -13,6 +12,8 @@ text: your-child-and-willowbrook
 mapembed: 
 audio:
 video:
+  srcType:
+  srcLink:
 videoTitle:
 eventname: Willowbrook State School opens
 caption: Informational booklet for parents, giving a general overview of Willowbrook, what to expect and how to prepare for their child's arrival. Exact date of publication unknown.

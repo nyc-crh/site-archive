@@ -12,7 +12,9 @@ embedTitle:
 text: 
 mapembed:
 audio:
-video: nvQ7X0gb30Q
+video: 
+  srcType: youtube
+  srcLink: nvQ7X0gb30Q
 videoTitle: Malcolm X Speaks in Solidarity With the School Boycotts in NYC (1964)
 eventname: Malcolm X answers questions about the boycott.
 caption: This is a video with responses from Adam Clayton Powell, Jr. and Malcolm X to questions about the boycott, its aims, and effectiveness. The video is from the second boycott (March 16, 1964), which did not have the same level of turnout.

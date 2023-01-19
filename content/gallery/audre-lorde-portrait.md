@@ -4,14 +4,13 @@ draft: false
 date: 1981-01-01
 displaydate: "1981"
 title: Portait of Audre Lorde
-author: Ansley Erickson
 imageFeatured: audre-lorde-portrait.jpg
 imageFeaturedAlt: Writer Audre Lorde at work at her desk, surrounded by papers, books, and posters.
 embed: 
 embedTitle: 
 text: 
 mapembed: 
-video: 
+video:
 audio:
 videoTitle:
 eventname: Audre Lorde is photographed at work

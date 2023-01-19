@@ -4,7 +4,6 @@ draft: false
 date: 1964-01-01
 displaydate: "1964"
 title: Change the Status Crow
-author: Matt Kautz
 imageFeatured: change-the-status-crow.jpg
 imageFeaturedAlt: Calls for a boycott of New York City's public schools to desegregate
 embed: 

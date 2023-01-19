@@ -12,7 +12,7 @@ cards:
     btn:
       text: View the primary source set
       url: /teaching-collections/black-women-edu-adv/
-  - title: 1964 New York City School Boycott
+  - title: Boycotting New York's Segregated Schools
     img: school-boycott.jpg
     alt: alt tag
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?

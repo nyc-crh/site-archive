@@ -4,7 +4,6 @@ draft: false
 date: 1900-01-01
 displaydate: "1900"
 title: Mrs. Elizabeth Cisco
-author:
 imageFeatured: elizabeth-cisco.jpg
 imageFeaturedAlt: Mrs. Elizabeth Cisco
 embed: 
@@ -27,7 +26,7 @@ questions:
   - What message do you think Mrs. Cisco wanted to send through this picture? What choices do you think she made that helped send that message?
   - Do you use photography to represent yourself? What kinds of decisions do you make about how you appear in photographs, and why?
   - How do you feel seeing a portrait of a Black woman who helped make segregation illegal in New York schools? 
-  - Historian Evelyn Brooks Higginbotham writes about the “politics of respectability.” She uses that term to argue that Black women of Cisco’s generation were contesting white supremacy while also insisting that Black people conformed “to the dominant society’s norms of manners and morals.” Do you think that this portrait of Mrs. Cisco reflects “the politics of respectability”? Why might activist women like Mrs. Cisco might have chosen to present themselves as “respectable”?
+  - Historian Evelyn Brooks Higginbotham writes about the "politics of respectability." She uses that term to argue that Black women of Cisco’s generation were contesting white supremacy while also insisting that Black people conformed "to the dominant society’s norms of manners and morals." Do you think that this portrait of Mrs. Cisco reflects "the politics of respectability"? Why might activist women like Mrs. Cisco might have chosen to present themselves as "respectable"?
 ---
 
 Photography has an important place in African American history. Black people faced racism that denied their dignity and humanity. When racist practices and beliefs denied Black people’s dignity and humanity, Black individuals and families with the means to do so could go to a photography studio and present themselves as they wanted the world to see them. Frederick Douglass was a famous abolitionist and writer who had been born into slavery. He used photography to spread a powerful image of himself to the world. Douglas made himself the most photographed person in the US in the 19th century. This was when cameras were large, cumbersome, expensive, and had to be used in a photography studio.[^1]
@@ -37,4 +36,3 @@ Why did Mrs. Elizabeth Cisco choose to have this photograph made when she did? W
 
 [^1]: Deborah Willis, Picturing Us: African American Identity in Photography (New Press, 1996), introduction.
 [^2]: Augusta Rohrbach. “Shadow and Substance: Sojourner Truth in Black and White,” in Maurice O. Wallace and Shawn Michelle Smith, eds. Pictures and Progress: Early Photography and the Making of African American Identity (Duke University Press, 2012), 83.
-

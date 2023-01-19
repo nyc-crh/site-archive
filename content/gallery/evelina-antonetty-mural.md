@@ -4,7 +4,6 @@ draft: false
 date: 1965-01-01
 displaydate: "1965"
 title: Evelina Antonetty founds United Bronx Parents
-author: Errol Saunders
 imageFeatured: evelina-antonetty-mural.jpg
 imageFeaturedAlt: Mural of Evelina López Antonetty. She is pointing a finger and talking. 
 embed:

@@ -4,7 +4,6 @@ draft: false
 date: 1964-03-12
 displaydate: 
 title: Parents and Taxpayers (Photo and Video)
-author: Matt Kautz
 imageFeatured: parents-and-taxpayers.jpg
 imageFeaturedAlt: A group of white women holding several signs protesting bussing while walking in the rain
 embed: 
@@ -12,7 +11,9 @@ embedTitle:
 text:
 mapembed: Brooklyn+Bridge
 audio:
-video: https://videos.criticalcommons.org/media/encoded/16/mattdelmont/0a56c0e8ef984b158d980ae7edd98_qu5OEvv.mp4
+video: 
+  srcType: other
+  srcLink: https://videos.criticalcommons.org/media/encoded/16/mattdelmont/0a56c0e8ef984b158d980ae7edd98_qu5OEvv.mp4
 videoTitle: Fifteen thousand white mothers” march across Brooklyn Bridge to protest “busing.”
 eventname: White parents protested integration after the 1964 boycott.
 caption: This AP image and the linked video (from NBC on Matthew Delmont’s Why Busing Failed website) capture white protestors against integration in the months following the 1964 Boycott. The group pictured in the photo are members of the segregationist group Parents and Taxpayers (PAT).

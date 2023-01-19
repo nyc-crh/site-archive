@@ -4,13 +4,14 @@ draft: false
 date: 2021-07-11
 displaydate: 
 title: Willie Mae Goodman reflects on Willowbrook
-author: 
 imageFeatured: willie-mae-goodman.jpg
 imageFeaturedAlt: Willie Mae Goodman speaks during a panel discussion
 embed:
 embedTitle:
 text: 
-video: https://www.youtube.com/embed/hInnet2nXaA
+video:   
+  srcType: youtube
+  srcLink: hInnet2nXaA
 mapembed:
 audio:
 videoTitle: Willie Mae Goodman reflects on Willowbrook

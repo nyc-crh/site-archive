@@ -4,7 +4,6 @@ draft: false
 date: 1970-01-21
 displaydate:
 title: Flyer for Bilingual Education
-author: Errol Saunders
 imageFeatured: bilingual-education.jpg
 imageFeaturedAlt: Flyer for bilingual education
 embed: bilingual-education.pdf

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="main">
+<section class="">
     <div class="container-lg">
         <div class="row align-items-center justify-content-center py-5 g-5">
             <div class="col-lg-8 order-lg-first">
@@ -24,7 +24,7 @@
                     {{ end }}
                     {{end}}
                     <div class="card-body">
-                        <h2 class="card-title">{{ .title }}</h2>
+                        <h5 class="card-title">{{ .title }}</h5>
                         <p class="card-text">{{ .text }}</p>
                         {{ with .btn }}
                         {{ if and .url .text }}
@@ -41,7 +41,7 @@
 {{end}}
 <section class="timeline">
     <div class="container-lg" style="text-align: left!important">
-      {{ range .RegularPagesRecursive.ByDate}} 
+      {{ range .RegularPagesRecursive.ByDate  }} 
         {{$alt:= .Params.imageFeaturedAlt}}
         {{$permalink:= .Permalink}}
         {{if .Params.hasContentInGallery}}
@@ -50,7 +50,6 @@
         {{with $galleryPage}}
         <div class="timeline-item">
             <div class="timeline-img"></div>
-            <a href="{{$permalink}}">
             <div class="timeline-content">
                 <div class="timeline-title"><h2>{{ .Params.Title}}</h2></div>
                 {{ if .Params.Displaydate }}
@@ -59,20 +58,20 @@
                 <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>{{ end }}
                 <div class="timeline-imagewrapper">
                     <div class="timeline-thumbnail">{{with .Params.imageFeatured}}
+                        <a href="{{$permalink}}">
                         {{ $timelineimage := resources.GetMatch (printf "/images/%s" .)}}
                         {{ with $timelineimage }}
-                        <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ .Params.imageFeaturedAlt }}"/>
-                        {{ end }}{{end}}</div>
+                        <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ .Params.imageFeaturedAlt }}" />
+                        </a>{{ end }}{{end}}</div>
                         <div class="timeline-text p2"><p>{{.Params.Eventname}}<br>
                         </div>
                 </div>
-            </div></a>
-        </div>
+            </div>
+        </div> 
         {{end}} 
         {{else}}
         <div class="timeline-item">
             <div class="timeline-img"></div>
-            {{ if .Params.hasContentInGallery }}<a href="{{$permalink}}">{{else}}
             <div class="timeline-content">
                 <div class="timeline-title"><h2>{{ .Params.Title}}</h2></div>
                 {{ if .Params.Displaydate }}
@@ -81,30 +80,47 @@
                 <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>{{ end }}
                 <div class="timeline-imagewrapper">
                     <div class="timeline-thumbnail">{{with .Params.imageFeatured}}
+                        <a href="{{$permalink}}">
                         {{ $timelineimage := resources.GetMatch (printf "/images/%s" .)}}
                         {{ with $timelineimage }}
-                        <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ .Params.imageFeaturedAlt }}" />
-                        {{ end }}{{end}}</div>
+                        <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ $alt }}" />
+                        </a>{{ end }}{{end}}</div>
                         <div class="timeline-text p2"><p>{{.Params.Eventname}}<br>
-                    </div>
+                        {{.Params.Eventlocation}}</p></div>
                 </div>
-            </div></a>{{end}}
-        </div>
+            </div>
+        </div>  
         {{end}}
       {{ end }}
+
         {{$allPages:= .Page.Parent.Pages}}
         {{$pages:= slice}}
-        {{range $allPages }}
-            {{if eq .Params.layout "docset-gallery"}} 
+        {{range $allPages}}
+            {{if eq .Params.layout "bundle-gallery"}} 
                 {{$pages = $pages | append .}}
             {{end}}
         {{end}}
+
         {{$permalink:= .Permalink}}
         {{$lastIndex:= sub (len $pages) 1}}
-        {{range $index, $page:= $pages}}
+
+        {{range $index,$page:= $pages}}
             {{if eq $page.Permalink $permalink}}
+            <div class="d-flex justify-content-between py-5">
+                {{if and (ne $index 0) (eq $index $lastIndex)}}  
+                <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous Document Set </a></div>
+                {{else if and (eq $index 0) (ne $index $lastIndex)}}      
+                <div class="float-right g-5"><a class="next btn btn-primary text-right" href="{{(index $pages (add $index 1)).Permalink}}"> Next Document Set </a></div>
+                {{else}}
+                <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous Document Set </a></div>
+                <div class="float-right g-5"><a class="next btn btn-primary text-right" href="{{(index $pages (add $index 1)).Permalink}}"> Next Document Set </a></div> 
+                {{end}}
+          </div>
             {{end}}
+            
         {{end}}
-    </div>
+        
+        </div>
+
 </section>
 {{ end }}
