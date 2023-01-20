@@ -3,7 +3,6 @@ layout: docset-gallery
 title: Black and Latina Women's Educational Activism
 weight: 1
 draft: false
-cardsTitle: Teaching Collections
 cards:
 - title: The Cisco Case
   img: elizabeth-cisco.jpg
