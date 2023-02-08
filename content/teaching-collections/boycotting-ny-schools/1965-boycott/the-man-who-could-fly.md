@@ -1,6 +1,6 @@
----
-title: "\"The Man Who Could Fly\" - An Olympian Escapes from a \"600\" School"
+--- 
+title: "\"The Man Who Could Fly: the Bob Beamon Story\"" 
 layout: "tc-single"
 hasContentInGallery: true
-date: 1999-05-01
----
+date: 1999-01-01
+--- 

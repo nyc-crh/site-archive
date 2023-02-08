@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main class="col ps-md-2 pt-2">
+  <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i> Menu</a>
+<div class="home">
+  <div class="container-lg">
+  <div class="row pack justify-content-center mx-auto">
+      {{ .Content }}
+    </div>
+    <div class="container">
+      <div class="row"><h2>Project Team</h2><p>{{ .Params.teamsum }}</p></div>
+      <div class="row">
+        {{ range where .Pages.ByWeight ".Params.team" true }}
+        <div class="col-sm col-6 col-md-4">
+          {{ .Render "summary" }}
+        </div>{{ end }}
+      </div>
+      <div class="row"><h2>Community Contributors</h2><p>{{ .Params.cosum }}</p></div>
+      <div class="row">
+        {{ range where .Pages ".Params.team" "!=" true }}
+        <div class="col-sm col-6 col-md-4">
+          {{ .Render "summary" }}
+        </div>{{ end }}
+      </div>
+    </div>
+    </div>
+  </div>
+</main>
+    {{end}}

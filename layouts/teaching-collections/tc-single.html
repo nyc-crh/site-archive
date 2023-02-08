@@ -2,14 +2,16 @@
     {{$fileName:= .File.BaseFileName}}
     {{$galleryPage:= $.Site.GetPage (printf "gallery/%s" $fileName)}}
     {{with $galleryPage}}
-    <section class="main">
-      <div class="container">
-        <div class="col-lg-12 justify-content-center">
-            <div class="col-lg-8 mx-auto justify-content-center">
+      <main class="col ps-md-2 pt-2">
+  <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i> Menu</a>
+  <div class="container-lg">
+    <div class="row justify-content-left py-5 g-3">
+        <div class="col-lg order-lg-first">
+          <p class="text-danger strong">DRAFT WORK IN PROGRESS. WE ARE SEEKING PERMISSION TO REPRODUCE COPYRIGHTED MATERIALS. YOU ARE WELCOME TO USE IN YOUR CLASSROOM, BUT PLEASE DO NOT SHARE PUBLICLY.</p>
               <h1>{{ .Title }}</h1></div>
               {{ partial "content" . }}
               {{end}}
-              <div class="d-flex justify-content-between py-5">
+              <div class="d-flex justify-content-between py-3">
                 {{ with .PrevInSection }}
                 <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{.Permalink}}"> Previous Item </a></div>
                 {{ end }}
@@ -17,9 +19,9 @@
                 <div class="float-right g-5"></div><a class="next  btn btn-primary text-right" href="{{.Permalink}}"> Next Item </a></div>
                 {{ end }}
               </div>
-              <div class="container-lg-10"><p class="h2">You are here:</p></div>
-          <div class="container-lg-10">{{ partial "breadcrumbs" . }}</div>
+              <div class="container-lg-12 justify-content-left"><p class="h2">You are here:</p></div>
+          <div class="container-lg-12 justify-content-left">{{ partial "breadcrumbs" . }}</div>
             </div>
           </div>
-      </section>
+          </main>
 {{end}}

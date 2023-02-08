@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="home">
+  <div class="container-lg">
+    <div class="col-lg-8 mx-auto justify-content-center">
+    <div class="row justify-content-center py-5 g-5"><h2>Key Concepts</h2></div>
+    <div class="row justify-content-center py-5 g-5">
+    </div>
+      {{ range .Pages.ByWeight }}
+      <div class="row">
+        <details>
+            <summary><h3><strong>{{ .Params.title | markdownify }}</strong></h3></summary>
+            <p>{{ .Content }}</p>
+             <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        References
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                    </div>
+                    
+                </div>
+                       </div></div>
+            <div><h4>Suggested primary source: {{ .Params.primarysource }}</h4></div>
+            <div class="col-sm">{{ with .Params.imageFeatured }}
+              {{ $image := resources.Get (printf "/images/%s" .)}}
+                  <img src="{{ ($image).Permalink }}" class="" alt="{{with $.Params.imageFeaturedAlt}}{{ . }}{{else}}{{$.Title}}{{end}}"/>
+              
+        </a></div></details>{{ end }}
+        </div>
+        </div>{{end}}
+      </div>
+    </div>
+    {{end}}

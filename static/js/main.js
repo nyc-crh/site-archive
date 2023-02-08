@@ -4,7 +4,6 @@ const footnotesLinks = document.querySelectorAll('a.footnote-ref')
 if(footnotes){
     const reference=  document.querySelector('#flush-collapseTwo > .accordion-body');
     reference.appendChild(footnotes);
-
 }
 
 
@@ -21,4 +20,5 @@ footnotesLinks.forEach(footnote=>{
 
         window.location = url;
     })
-})
+})    
+

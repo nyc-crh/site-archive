@@ -1,7 +1,6 @@
----
-title: Check Your School Questionnaire
+--- 
+title: Check Your School!
 layout: "tc-single"
 hasContentInGallery: true
-date: 1958-01-01
-displaydate: "1950s"
----
+date: 1950-01-01
+--- 

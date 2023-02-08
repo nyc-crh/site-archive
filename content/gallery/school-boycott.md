@@ -1,32 +1,48 @@
 ---
 layout: gallery
 draft: false
-date: 1964-02-03
-displaydate: 
-title: School Boycott!
-author: Matt Kautz
-imageFeatured: school-boycott.jpg
-imageFeaturedAlt: Flier shows a black child looking through a broken school window and lists information about the one day boycott.
-embed: 
-embedTitle: 
-text:
-mapembed:
-audio:
-video: 
-videoTitle: 
-eventname: Call for a boycott of New York City's public schools to desegregate.
-caption: Flier shows a black child looking through a broken school window. Above in large font, "School Boycott!" and in a smaller font below, "Freedom Day, February 3, 1964. Join the One Day Boycott!" At the bottom, numbers for different boroughs are listed to contact organizers from the Citywide Committee for Integrated Schools. 
-archive_source: Queens College Civil Rights Archives
-source_link: https://archives.qc.cuny.edu/civilrights/exhibits/show/education/item/130 
-copyright: Elliot Linzer family
+date: 1000-01-01
+displaydate: "1000-2000"
+title: Title in Title Case
+imageFeatured: title-of-the-image.jpg
+imageFeaturedAlt: alt tag
+embed: title-of-the-file.pdf
+embedTitle: title of pdf here
+text: path-to-plain-text-version
+mapembed: Search+Term+Or+Address
+audio: # delete below content if not using
+  - type: mp3
+    src: /audio/sample-9s.mp3
+  - type: wav
+    src: /audio/sample-wav.wav
+audioTitle: Audio Title
+video: # delete below content if not using
+  srcType: youtube #type "other" if different source
+  srcLink: nfs8NYg7yQM #use youtube embed code after "youtube.com/embed/"
+videoTitle: Video Title
+eventname: Brief description for the timeline view, this shouldn't be longer than 125 characters. Brief description for the timeline view
+caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.
+archive_source: Source of the primary document
+source_link: https://archive-link.com
+copyright: Public Domain or Copyright Holder
 categories:
   - uncategorized
 tags:
   - untagged
 questions:
-  - What do you notice about the poster? What do you wonder?
-  - Who is the audience for this poster? What strategies does the poster employ to enlist that audience into the demonstration?
-  - What information in the poster echoes the present?
+  - Question 1?
+  - Question 2?
+  - Question 3?
+references:
+  - Reference 1
+  - Reference 2
+  - Reference 3
 ---
 
-The flier calls for a boycott of New York City's public schools to desegregate in 1964.
+Some context for the item. Use Markdown styling (see link below)
+
+[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
+
+Here's a simple footnote,[^1]
+
+[^1]: This is the first footnote.

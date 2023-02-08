@@ -1,7 +1,6 @@
----
-title: "\"Claim Teachers Used Pupils As Shoe Shine Boys: DA Calls Charges \"Serious\""
+--- 
+title: "\"600\" Schools, Yesterday, Today, and Tomorrow (Excerpt) "
 layout: "tc-single"
 hasContentInGallery: true
-date: 1975-07-02
----
-
+date: 1966-09-01
+--- 

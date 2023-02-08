@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="">
     <div class="container-lg">
-        <div class="row align-items-center justify-content-center py-5 g-5">
+        <div class="row align-items-left justify-content-left py-5 g-5">
             <div class="col-lg-8 order-lg-first">
                 <h1>{{ .Page.Params.title }}</h1>
                 <p class="lead">{{ .Content }}</p>
@@ -92,35 +92,36 @@
         </div>
         {{end}}
       {{ end }}
-
         {{$allPages:= .Page.Parent.Pages}}
         {{$pages:= slice}}
         {{range $allPages}}
             {{if eq .Params.layout "bundle-gallery"}} 
                 {{$pages = $pages | append .}}
             {{end}}
-        {{end}}
+        {{end}}        
+        </div>
 
-        {{$permalink:= .Permalink}}
+</section>
+<div class="container-lg">
+{{$permalink:= .Permalink}}
         {{$lastIndex:= sub (len $pages) 1}}
-
         {{range $index,$page:= $pages}}
             {{if eq $page.Permalink $permalink}}
             <div class="d-flex justify-content-between py-5">
-                {{if and (ne $index 0) (eq $index $lastIndex)}}  
+                {{if and (ne $index 0) (eq $index $lastIndex)}}
                 <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous Document Set </a></div>
-                {{else if and (eq $index 0) (ne $index $lastIndex)}}      
+                {{else if and (eq $index 0) (ne $index $lastIndex)}}
                 <div class="float-right g-5"><a class="next btn btn-primary text-right" href="{{(index $pages (add $index 1)).Permalink}}"> Next Document Set </a></div>
                 {{else}}
                 <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous Document Set </a></div>
                 <div class="float-right g-5"><a class="next btn btn-primary text-right" href="{{(index $pages (add $index 1)).Permalink}}"> Next Document Set </a></div> 
                 {{end}}
-          </div>
+              </div>
+              <div class="container-lg-10"><p class="h2">You are here:</p></div>
+          <div class="container-lg-10">{{ partial "breadcrumbs" . }}</div>
+            </div>
+
             {{end}}
             
-        {{end}}
-        
-        </div>
-
-</section>
+        {{end}}</div>
 {{ end }}

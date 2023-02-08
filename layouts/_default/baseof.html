@@ -4,15 +4,19 @@
     {{ partial "head" . }}
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <header>
-        {{ partial "header" . }}
-    </header>
-    <main class="mb-auto flex-shrink-0">
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto px-0">
+                {{ partial "header-sidebar" . }}</div>
         {{ block "main" . }}{{ end }}
-    </main>
+</div>
+</div>
     <footer>
         {{ partial "footer" . }}
     </footer>
     {{ partial "scriptfooter" . }}
 </body>
 </html>
+
+
+            

@@ -6,7 +6,7 @@ $primary-text: #212121;
 $secondary-text: #757575;
 $accent: #bb3f3f;
 
-.hero-table { 
+.hero-table {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -61,7 +61,7 @@ section {
 				clear: both;
 				padding-right: 50px;
 			}
-			
+
 		}
 	}
 
@@ -80,7 +80,7 @@ section {
 	border-radius: 4px;
 	background: #f5f5f5;
 	box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
-	
+
 	&::after {
 		content: '';
 		position: absolute;
@@ -239,7 +239,7 @@ blockquote {
 			&:nth-child(odd) {
 
 				.timeline-content {
-					
+
 					&::after {
 						content: '';
 						position: absolute;
@@ -256,7 +256,7 @@ blockquote {
 			}
 		}
 	}
-	
+
 }
 .btn-primary {
 	background-color: #bb3f3f;
@@ -307,6 +307,7 @@ blockquote {
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: 0.5rem;
+	margin-left: 0px;
     color: #5c5c5c;
     content: var(--bs-breadcrumb-divider, ">");
 }
@@ -330,7 +331,7 @@ body > main > section.timeline div > a {
 	color: #212121;
 	text-decoration: none;
 		&:hover {
-			color: #ec1a1a; 
+			color: #ec1a1a;
 			text-decoration: none;
 		  }
 		&:visited {
@@ -342,11 +343,16 @@ body > main > section.timeline div > a {
 		  text-decoration: none;
 		}
 	}
+	body> main> section.timeline div > a {
+		color:#212121;
+		text-decoration:none
+	}
+
 body > main > section > div > div > nav.breadcrumb.container > ol.breadcrumb > li.breadcrumb-item > a {
 	text-decoration: underline;
 		&:hover {
-		color: #ec1a1a; 
-		text-decoration: none; 
+		color: #ec1a1a;
+		text-decoration: none;
 		 }
 		&:visited {
 		color: #212121;
@@ -357,6 +363,21 @@ body > main > section > div > div > nav.breadcrumb.container > ol.breadcrumb > l
 		  text-decoration: none;
 		}
 		}
-	
+
 body > main > section > div > div > div > .a:hover { color: #bb3f3f;
 		}
+#sidebar-nav {
+	width: 250px;
+}
+
+details summary { 
+	cursor: pointer;
+  }
+  
+  details summary > * {
+	display: inline;
+  }
+
+.footnotes {
+	font-size: 12px;
+}

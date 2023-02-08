@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="main">
+  <div class="container-lg">
+    <div class="row justify-content-center py-5 g-5">
+        <div class="col-lg-8 order-lg-first">
+          <p class="text-danger strong">DRAFT WORK IN PROGRESS. WE ARE SEEKING PERMISSION TO REPRODUCE COPYRIGHTED MATERIALS. YOU ARE WELCOME TO USE IN YOUR CLASSROOM, BUT PLEASE DO NOT SHARE PUBLICLY.</p>
+        <h1>{{ .Title }}</h1></div>
+        {{ partial "content" . }}
+        <div class="col-lg-10 d-flex justify-content-between py-5">
+          {{ with .PrevInSection }}
+                <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{.Permalink}}"> Previous Item </a></div>
+                {{ end }}
+                {{ with .NextInSection }}
+                <div class="float-right g-5"></div><a class="next  btn btn-primary text-right" href="{{.Permalink}}"> Next Item </a></div>
+                {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+
+{{ end }}

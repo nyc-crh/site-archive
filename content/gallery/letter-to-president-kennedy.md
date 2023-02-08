@@ -1,31 +1,48 @@
 ---
 layout: gallery
 draft: false
-date: 1963-08-13
-displaydate: 
-title: Letter to President Kennedy
-imageFeatured: letter-to-president-kennedy.jpg
-imageFeaturedAlt: A letter from A. Philip Randolf to President John F. Kennedy
-embed: letter-to-president-kennedy.pdf
-embedTitle: Letter to President Kennedy
-text: letter-to-president-kennedy
-mapembed:
-audio:
-video: 
-videoTitle: 
-eventname: Philip Randolph writes to President Kennedy about the upcoming March on Washington for Jobs and Freedom.
-caption: This is a letter from August 13, 1963 from A. Philip Randolph to President Kennedy about the upcoming March on Washington for Jobs and Freedom, including a request for the President to meet with the sponsoring Committee.
-archive_source: President John F. Kennedy Library
-source_link: https://www.jfklibrary.org/asset-viewer/archives/JFKWHCSF/0365/JFKWHCSF-0365-007?image_identifier=JFKWHCSF-0365-007-p0007
-copyright: Public Domain
+date: 1000-01-01
+displaydate: "1000-2000"
+title: Title in Title Case
+imageFeatured: title-of-the-image.jpg
+imageFeaturedAlt: alt tag
+embed: title-of-the-file.pdf
+embedTitle: title of pdf here
+text: path-to-plain-text-version
+mapembed: Search+Term+Or+Address
+audio: # delete below content if not using
+  - type: mp3
+    src: /audio/sample-9s.mp3
+  - type: wav
+    src: /audio/sample-wav.wav
+audioTitle: Audio Title
+video: # delete below content if not using
+  srcType: youtube #type "other" if different source
+  srcLink: nfs8NYg7yQM #use youtube embed code after "youtube.com/embed/"
+videoTitle: Video Title
+eventname: Brief description for the timeline view, this shouldn't be longer than 125 characters. Brief description for the timeline view
+caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.
+archive_source: Source of the primary document
+source_link: https://archive-link.com
+copyright: Public Domain or Copyright Holder
 categories:
   - uncategorized
 tags:
   - untagged
 questions:
-  - What were the goals of the March on Washington? How did those goals relate to A. Philip Randolph’s previous career as the president of the Brotherhood of Sleeping Car Porters?
-  - Why do you think that schools usually only focus on Dr. King’s I Have a Dream speech when teaching the March on Washington?
+  - Question 1?
+  - Question 2?
+  - Question 3?
+references:
+  - Reference 1
+  - Reference 2
+  - Reference 3
 ---
 
-The 1963 March on Washington for Jobs and Freedom organized by A. Philip Randolph sought to enact changes in myriad ways. The first would be a planned demonstration involving more than 200,000 people. Randolph was also able to secure a meeting between John F. Kennedy and a selected delegation of Civil Rights leaders. Included in the meeting were Dr. King, John Lewis, and A. Philip Randolph. They hoped to discuss policy proposals and changes that were the purpose of the demonstration. Following Randolph’s lead, they wanted to show how economic security (jobs) and freedom were closely tied. The organizers also wanted to call for the end to racial discriminiation in both the South and the North. Among specific issues they wanted addressed included the end of racialized police brutality, assurance of voting rights, desegregated schools, and a federal works program guaranteeing employment. The March on Washington for Jobs and Freedom is often represented by the “I Have a Dream” speech, but there is more than just the singular speech to explore about this March. The policy demands the March asked for were considered by many to be radical and far-sweeping.
-It was these demands that the delegation of the demonstration would discuss with President Kennedy. Notably absent from this meeting was Baynard Rustin, who was urged by his colleagues not to attend. They felt his gayness and his past affiliation with the Communist Party would embarrass them and make it harder to have their demands met.
+Some context for the item. Use Markdown styling (see link below)
+
+[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
+
+Here's a simple footnote,[^1]
+
+[^1]: This is the first footnote.

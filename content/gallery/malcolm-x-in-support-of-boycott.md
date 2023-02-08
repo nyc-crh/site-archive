@@ -1,34 +1,48 @@
 ---
 layout: gallery
 draft: false
-date: 1964-03-01
-displaydate: 
-title: Malcolm X in Support of Boycott
-author:
-imageFeatured: malcolm-x-in-support-of-boycott.jpg
-imageFeaturedAlt: Malcolm X is interviewed standing in front of a large group of people.
-embed: 
-embedTitle: 
-text: 
-mapembed:
-audio:
-video: 
-  srcType: youtube
-  srcLink: nvQ7X0gb30Q
-videoTitle: Malcolm X Speaks in Solidarity With the School Boycotts in NYC (1964)
-eventname: Malcolm X answers questions about the boycott.
-caption: This is a video with responses from Adam Clayton Powell, Jr. and Malcolm X to questions about the boycott, its aims, and effectiveness. The video is from the second boycott (March 16, 1964), which did not have the same level of turnout.
-archive_source: WSB-TV
-source_link: https://www.youtube.com/watch?v=nvQ7X0gb30Q
-copyright: WSB-TV
+date: 1000-01-01
+displaydate: "1000-2000"
+title: Title in Title Case
+imageFeatured: title-of-the-image.jpg
+imageFeaturedAlt: alt tag
+embed: title-of-the-file.pdf
+embedTitle: title of pdf here
+text: path-to-plain-text-version
+mapembed: Search+Term+Or+Address
+audio: # delete below content if not using
+  - type: mp3
+    src: /audio/sample-9s.mp3
+  - type: wav
+    src: /audio/sample-wav.wav
+audioTitle: Audio Title
+video: # delete below content if not using
+  srcType: youtube #type "other" if different source
+  srcLink: nfs8NYg7yQM #use youtube embed code after "youtube.com/embed/"
+videoTitle: Video Title
+eventname: Brief description for the timeline view, this shouldn't be longer than 125 characters. Brief description for the timeline view
+caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.
+archive_source: Source of the primary document
+source_link: https://archive-link.com
+copyright: Public Domain or Copyright Holder
 categories:
   - uncategorized
 tags:
   - untagged
 questions:
-  - Why do you think Malcolm X participated in the second boycott? Does it surprise you that he did? Why or why not?
-  - Why do you think Malcolm X invoked segregation in Mississippi's schools? What point was he trying to make?
-  - Why do you think Malcolm X focuses attention on “white liberals” in New York? 
+  - Question 1?
+  - Question 2?
+  - Question 3?
+references:
+  - Reference 1
+  - Reference 2
+  - Reference 3
 ---
 
-The second school boycott took place on March 16, 1964. Fewer people participated in the second boycott, but feelings about the city’s segregated and unequal school system remained strong. Black New Yorkers held different opinions on source of oppression and how to respond to it. The organizers of the boycotts believed that school integration was the next move. Others, like Malcolm X, supported the idea of Black Nationalism. They promoted economic self-sufficiency and pride in Black identity. They also believed in the formation of an independent Black nation. In spite of these differing views, Malcolm X took part in the second boycott. He describes why he participated in this interview. 
+Some context for the item. Use Markdown styling (see link below)
+
+[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
+
+Here's a simple footnote,[^1]
+
+[^1]: This is the first footnote.

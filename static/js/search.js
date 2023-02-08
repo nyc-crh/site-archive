@@ -15,12 +15,12 @@ var fuseOptions = {
     ]
 };
 
-var show = function (elem) {
-    elem.style.display = 'block';
-};
-var hide = function (elem) {
-    elem.style.display = 'none';
-};
+// var show = function (elem) {
+//     elem.style.display = 'block';
+// };
+// var hide = function (elem) {
+//     elem.style.display = 'none';
+// };
 
 var inputBox = document.getElementById('search-query');
 if (inputBox !== null) {
@@ -37,7 +37,7 @@ function executeSearch(searchQuery) {
 
     show(document.querySelector('.search-loading'));
 
-    fetch('/site-preview/index.json').then(function (response) {
+    fetch('/index.json').then(function (response) {
         if (response.status !== 200) {
             console.log('Looks like there was a problem. Status Code: ' + response.status);
             return;
@@ -60,9 +60,7 @@ function executeSearch(searchQuery) {
 }
 
 function populateResults(results) {
-    // removing duplicate link for result
-    results= results.filter((v,i,a)=>a.findIndex(v2=>(v2.item.permalink===v.item.permalink))===i)
-    console.log(results)
+
     var searchQuery = document.getElementById("search-query").value;
     var searchResults = document.getElementById("search-results");
 
@@ -134,5 +132,3 @@ function render(templateString, data) {
     }
     return templateString;
 }
-
-

@@ -1,8 +1,6 @@
----
-title: NAACP Youth Council - The Challenge
+--- 
+title: NAACP Youth Council News Bulletin
 layout: "tc-single"
 hasContentInGallery: true
-disableLink: false
 date: 1947-01-01
-displaydate: "1947"
----
+--- 

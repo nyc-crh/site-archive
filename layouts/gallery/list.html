@@ -1,6 +1,10 @@
 {{ define "main" }}
-<div class="home">
+  <div class="">
+    <main class="col ps-md-2 pt-2">  
+      <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i> Menu</a>
+
   <div class="container-lg">
+    <h1> {{ .Title }}</h1>
   <div class="row pack justify-content-center mx-auto">
     {{ .Content }}
     {{ range (.Paginate $.RegularPagesRecursive.ByDate).Pages}}
@@ -17,16 +21,13 @@
       <div class="panel-body py-3">
         <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3>
       </div>
+    </div> 
     </div>
-
-  </div>
-  {{ end }}
-
+{{ end }}
 </div>
+</main>
 
 <div class="row">
  {{ partial "pagination" . }}
-</div>
-</div>
-</div>
+</div></div>
 {{ end }}

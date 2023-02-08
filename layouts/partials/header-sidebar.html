@@ -1,0 +1,17 @@
+<div id="sidebar" class="collapse collapse-horizontal show border-end">
+  <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100">
+    <a class="navbar-brand" href="/home">
+    <img src="/img/nyccrh-logo-header.jpg" alt="NYC Civil Rights History Logo" width="250px;">
+  </a>
+  <div class="col"><form action="/search" method="GET" class="mb-3 py-3">
+    <input type="search" name="q" class="form-control searchbar" id="search-query" placeholder="Search..." aria-label="Search">
+  </form></div>
+    <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100">
+      {{ with .Site.GetPage "about" }}<a href="{{ .Permalink }}" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span> About</span> </a>{{ end }}
+      {{ with .Site.GetPage "gallery" }}  <a href="{{ .Permalink }}" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span>Gallery</span></a>{{ end }}
+      {{ with .Site.GetPage "teaching-collections" }}  <a href="{{ .Permalink }}" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span>Teaching Collections</span></a>{{ end }}
+      {{ with .Site.GetPage "for-teachers" }}  <a href="{{ .Permalink }}" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span>For Teachers</span></a>{{ end }}
+      {{ with .Site.GetPage "people" }} <a href="{{ .Permalink }}" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span>People</span></a>{{ end }}
+    </div>
+</div>
+</div>

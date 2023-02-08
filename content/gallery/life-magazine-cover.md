@@ -1,31 +1,48 @@
 ---
 layout: gallery
 draft: false
-date: 1963-09-06
-displaydate:
-title: Life Magazine Cover
-imageFeatured: life-magazine-cover.jpg
-imageFeaturedAlt: A. Philip Randolph and Bayard Rustin in front of the Lincoln Memorial
-embed: 
-embedTitle: 
-text: 
-mapembed:
-audio:
-video: 
-videoTitle: 
-eventname: Life magazine features A. Philip Randolph and Bayard Rustin.
-caption: This cover from Life magazine features A. Philip Randolph and Bayard Rustin, the lead organizers for the March on Washington for Jobs and Freedom. 
-archive_source: Life
-source_link: https://www.loc.gov/exhibits/brown/images/br0217s.jpg
-copyright: Life
+date: 1000-01-01
+displaydate: "1000-2000"
+title: Title in Title Case
+imageFeatured: title-of-the-image.jpg
+imageFeaturedAlt: alt tag
+embed: title-of-the-file.pdf
+embedTitle: title of pdf here
+text: path-to-plain-text-version
+mapembed: Search+Term+Or+Address
+audio: # delete below content if not using
+  - type: mp3
+    src: /audio/sample-9s.mp3
+  - type: wav
+    src: /audio/sample-wav.wav
+audioTitle: Audio Title
+video: # delete below content if not using
+  srcType: youtube #type "other" if different source
+  srcLink: nfs8NYg7yQM #use youtube embed code after "youtube.com/embed/"
+videoTitle: Video Title
+eventname: Brief description for the timeline view, this shouldn't be longer than 125 characters. Brief description for the timeline view
+caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.
+archive_source: Source of the primary document
+source_link: https://archive-link.com
+copyright: Public Domain or Copyright Holder
 categories:
   - uncategorized
 tags:
   - untagged
 questions:
-  - Why do you think Life magazine featured A. Philip Randolph and Bayard Rustin on the cover, rather than speakers like Dr. Martin Luther King, Jr. and John Lewis?
-  - What do you notice about the picture? What do you wonder?
+  - Question 1?
+  - Question 2?
+  - Question 3?
+references:
+  - Reference 1
+  - Reference 2
+  - Reference 3
 ---
 
-The organizing of the 1963 March for Jobs and Freedom was an amazing success. More than 200,000 people participated. Over the next few years, the federal government in response to the march and civil rights activism throughout the country passed the Civil Rights Act (1964), the Voting Rights Act (1965), and the Fair Housing Act (1968). Not all of the demands of the march were met and even the legislation passed did not always meet the imaginations of activists and organizers. However, the organizing tradition that A. Philip Randolph and Bayard Rustin, among others, had cultivated through labor movements reached a new prominence in the 1950s and 1960s which opened the door for greater possibilities. 
-Indeed, as the NAACP and other organizations began to organize a boycott of New York City’s schools in 1964, they enlisted Bayard Rustin as the lead organizer for what proved to be an even larger demonstration than the March on Washington.
+Some context for the item. Use Markdown styling (see link below)
+
+[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
+
+Here's a simple footnote,[^1]
+
+[^1]: This is the first footnote.

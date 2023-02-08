@@ -1,40 +1,44 @@
 {{ define "main" }}
-<section class="">
+<main class="col ps-md-2 pt-2">
+    <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i> Menu</a>
     <div class="container-lg">
-        <div class="row align-items-center justify-content-center py-5 g-5">
-            <div class="col-lg-8 order-lg-first">
-                <h1>{{ .Page.Params.title }}</h1>
-                <p class="lead">{{ .Content }}</p>
+        <div class="row justify-content-left py-5 g-3">
+        <div class="col-lg-8 order-lg-first">
+            <p class="text-danger strong">DRAFT WORK IN PROGRESS. WE ARE SEEKING PERMISSION TO REPRODUCE COPYRIGHTED MATERIALS. YOU ARE WELCOME TO USE IN YOUR CLASSROOM, BUT PLEASE DO NOT SHARE PUBLICLY.</p>
+                <h1>{{ .Page.Params.title }}</h1></div></div>
+                 <p>{{ .Content | markdownify }}</p>
             </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container-lg">
-        <div class="row">
-            {{ range .Params.cards }}
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    {{$alt:= .alt}}
-                    {{with .img}}
-                    {{ $image := resources.Get (printf "images/%s" .)}}
-                    {{ with $image }}
-                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ $alt }}" />
-                    {{ end }}
-                    {{end}}
-                    <div class="card-body">
-                        <h2 class="card-title">{{ .title }}</h2>
-                        <p class="card-text">{{ .text }}</p>
-                        {{ with .btn }}
-                        {{ if and .url .text }}
-                        <a href="{{ .url}}" class="btn btn-primary">{{ .text }}</a>
-                        {{ end }}
+            {{with .Params.cards}}
+            <section>
+                <div class="container-lg">
+                    <div class="gy-3 row">
+                        {{ range $index,$card:= . }}
+                        <div class="col-md-4">
+                            <div class="h-100 card mb-3">
+                                {{$alt:= .alt}}  
+                                {{with .img}}
+                                {{ $image := resources.Get (printf "images/%s" .)}}
+                                {{ with $image }}
+                                <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{$alt}}" />
+                                {{ end }}
+                                {{end}}
+                                <div class="card-body">
+                                    <h2 class="card-title">{{ .title }}</h2>
+                                    <p class="card-text">{{ .text }}</p>
+                                    {{ with .btn }}
+                                    {{ if and .url .text }}
+                                    <a href="{{ .url }}" class="btn btn-primary">{{ .text }}</a>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </div>
-            </div>
-            {{ end }}
-        </div>
+            </section>
+            {{end}}
     </div>
-</section>
+    
+</main>
 {{ end }}

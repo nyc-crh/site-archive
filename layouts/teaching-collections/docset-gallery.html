@@ -1,10 +1,27 @@
 {{ define "main" }}
-<section class="main">
+<main class="col ps-md-2 pt-2">
+    <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i> Menu</a>
+    <section>
     <div class="container-lg">
-        <div class="row align-items-center justify-content-center py-5 g-5">
-            <div class="col-lg-8 order-lg-first">
-                <h1>{{ .Page.Params.title }}</h1>
-                <p class="lead">{{ .Content }}</p>
+      <div class="row justify-content-left py-5 g-3">
+          <div class="col-lg-8 order-lg-first">
+            <p class="text-danger strong">DRAFT WORK IN PROGRESS. WE ARE SEEKING PERMISSION TO REPRODUCE COPYRIGHTED MATERIALS. YOU ARE WELCOME TO USE IN YOUR CLASSROOM, BUT PLEASE DO NOT SHARE PUBLICLY.</p>
+                <h1>{{ .Page.Params.title }}</h1></div>
+                 {{ .Content | markdownify }}
+                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                References
+                            </button>
+                
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
             </div>
         </div>
     </div>
@@ -12,10 +29,10 @@
 {{with .Params.cards}}
 <section>
     <div class="container-lg">
-        <div class="row">
+        <div class="gy-3 row">
             {{ range $index,$card:= . }}
             <div class="col-md-4">
-                <div class="card mb-3">
+                <div class="h-100 card mb-3">
                     {{$alt:= .alt}}  
                     {{with .img}}
                     {{ $image := resources.Get (printf "images/%s" .)}}
@@ -107,4 +124,5 @@
         {{end}}
     </div>
 </section>
+</main>
 {{ end }}
